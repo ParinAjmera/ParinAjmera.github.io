@@ -1,3 +1,5 @@
+/* Author: Parin Ajmera */
+
 
 /* ----------------------------------Navigation & Sidebar-----------------------------------------*/
 #Navigation {
@@ -72,6 +74,15 @@ li.no-bullets:before {
 .brand {
   margin: 10px auto;
   padding: 60px 0;
+}
+
+/* Removing Focus indicator from profile image */
+li a.profile-test:hover {
+  background-color: #f7f7f7;
+}
+
+li a.profile-test:focus {
+  background-color: #f7f7f7;
 }
 
 /* Download and Social Media Button fixed */
