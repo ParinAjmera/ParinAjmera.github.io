@@ -1,3 +1,4 @@
+// Author: Parin Ajmera
 
 //-------------------------------------------------------------------------------//
 // Add class active to side navbar element clicked. The CSS class will change the//
@@ -48,7 +49,7 @@ $(document).ready(function(){
 	$('.icon-size').mouseout(function(){
 		$('.icon-size').removeClass('text-primary');
 	});
-	
+
 });
 
 
