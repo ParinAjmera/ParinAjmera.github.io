@@ -77,11 +77,11 @@ li.no-bullets:before {
 }
 
 /* Removing Focus indicator from profile image */
-li a.profile-test:hover {
+li a.profile-focus-rm:hover {
   background-color: #f7f7f7;
 }
 
-li a.profile-test:focus {
+li a.profile-focus-rm:focus {
   background-color: #f7f7f7;
 }
 
