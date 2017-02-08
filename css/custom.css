@@ -1,0 +1,297 @@
+
+/* ----------------------------------Navigation & Sidebar-----------------------------------------*/
+#Navigation {
+  position: fixed;
+  background-color: #f7f7f7;
+  height: 100vh;
+}
+
+.sidebar li a {
+  display: block;
+  text-decoration: none;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  text-align:center;
+}
+
+.sidebar li.active a {
+  display: block;
+  text-decoration: none;
+  color: #0082d6;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  text-align:center;
+}
+
+/* On hover enlarge text for fancy nav effect */
+.sidebar li a:hover {
+  display: block;
+  text-decoration: none;
+  color: #0082d6;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px;
+  text-align:center;
+}
+
+/* Download button will not be enlarged on hover */
+.sidebar li:hover a.dont-enlarge {
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  text-align:center;
+  color: #666666;
+}
+
+/* Download button will not be enlarged on click */
+.sidebar li.active a.dont-enlarge {
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px;
+  text-align:center;
+  color: #666666;
+}
+
+/* Removing Bullets from Phone Navigation bar */
+li.no-bullets:before {
+  font-size: 0px;
+}
+
+/* Profile Image Border Radius */
+.profile-image {
+  border-radius: 50%;
+}
+
+.brand {
+  margin: 10px auto;
+  padding: 60px 0;
+}
+
+/* Download and Social Media Button fixed */
+#menu-fixed-bottom{
+  position: absolute;
+  background-color: #F7F7F7;
+  text-align: center;
+}
+
+/* Mobile Device Menu Button */
+.menu-btn {
+  border-color: #fff;
+  font-size: 29px;
+  background:rgba(0,0,0,0);
+  border: 0px;
+  padding-top: 20px;
+}
+
+/* Mobile Device Menu Dropdown toggle customization */
+.dropdown-custom {
+  text-align: center;
+  padding: 25px 25px;
+  font-size: 17px;
+  box-shadow: 10px 10px 15px lightgray;
+  line-height: 130%;
+}
+
+
+/* ----------------------------------Introduction Section----------------------------------------- */
+
+/* Introduction section */
+#Introduction {
+  background-color: #ebebeb;
+}
+
+/* Introduction Padding Desktop devices */
+.intro-md {
+	padding-top: 100px; 
+	padding-bottom: 100px; 
+}
+/* Side Padding */
+.sidepad15 {
+  padding-left: 25px;
+}
+
+/* Big Header for Desktop Devices*/
+.big-header-md {
+	font-size: 50px;
+}
+/* Name should be on a new line on smaller devices */
+.big-header-md br {
+  display: none;
+}
+
+/* Big Header for Mobile Screens */
+.big-header-xs {
+  padding-top: 30px;
+
+  font-size: 45px;
+}
+
+.padding-xs {
+  padding-bottom: 55px;
+}
+
+/* ----------------------------------Skills Section----------------------------------------*/
+
+/* Left and right side of the card with 10px used in Skills card for desktop devices */
+.side-pad-10 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+/* ----------------------------------Education Section----------------------------------------*/
+
+/* Blue vertical divider for desktop devices */
+.card-right-border-md{
+  border-right: solid;
+  border-color: #337ab7 ;
+}
+
+
+/* ----------------------------------Work Experience-----------------------------------------------*/
+
+/* Description section desktop devices */
+.wx-description-md{
+  border-left: solid;
+  border-color: #337ab7;
+  padding-top: 15px;
+  font-style: italic;
+}
+
+.wx-description-xs{
+  border-top: solid;
+  border-color: #337ab7;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-style: italic;
+  font-size: 15px;
+}
+
+/* ----------------------------------Project Section----------------------------------------*/
+
+/* Project card padding 10px on top-left-right sides */
+.three-pad-10-md {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Font size reduced for mobile screens to reduce scrolling */
+.project-body-font-xs {
+  font-size: 15px;
+}
+
+/* ----------------------------------Card Layout Using Panel----------------------------------------*/
+
+/* Gives the card a background color and a box shadow */
+.card-design {
+  background-color: #f5f5f5;
+/*   box-shadow: 5px 5px 1px lightgray; */
+box-shadow: 0 2px 15px rgba(51,122,183,0.3), 0 0 15px rgba(51,122,183,0.3);
+}
+
+/* Aligns card headers to center and gives a blue bottom border */
+.card-header {
+  text-align: center;
+  border-bottom: solid;
+  border-color: #337ab7 ;
+  font-size: 25px;
+}
+
+/* Gives the card a padding of 15px on all sides  */
+.all-pad-15 {
+  padding: 15px 15px;
+}
+
+
+/* ----------------------------------General Classes----------------------------------------*/
+
+/* Setting font */
+body{
+  background-color: #fefefe;
+  font-family: "San Franscisco";
+  font-size: 18px;
+}
+
+/* Changing the color of the bullet points to be consistent with the theme */
+li {
+  list-style: none;
+}
+
+li:before {
+  /* For a round bullet */
+  content: '\2022';
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 3px;
+  left: -20px;
+  top: 0;
+  color: #337ab7;
+  font-size: 20px;
+}
+
+/* Reduce margin on list items for better rendering on mobile screens */
+.reduce-margin-xs {
+  margin-left: -15px;
+}
+
+/* Adding a side padding to gylphicons */
+.icon-right-pad {
+  padding-right: 10px;
+}
+
+/* Social Media Icons Size */
+.icon-size {
+  padding-right: 10px;
+}
+
+/* Section Header Padding */
+.section-header-pad {
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+/* Footer */
+.footer-custom {
+  padding: 25px 25px;
+  background-color: #f7f7f7;	
+}
+
+/* Align footer to center in desktop screens */
+.pull-right-md {
+  float: right;
+}
+/* -----------------------------------------------Test CSS Classes----------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
