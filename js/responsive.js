@@ -36,7 +36,10 @@ $(window).on("resize load", function() {
 
 	}
 	else if($(window).width() >= 750 && $(window).width() < 970){	//section corresponding to sm (small devices)
-
+		// Work Experience description section's left border adjusted for smaller screen
+		$('.resp-wx').removeClass('wx-description-md').addClass('wx-description-xs');		
+		// Setting footer to center in mobile screens and not to the right
+		$('#footer').removeClass('pull-right-md').css("text-align","center");
 	}
 	else if($(window).width() >= 970 && $(window).width() < 1150){	//section corresponding to md (medium devices)
 				
