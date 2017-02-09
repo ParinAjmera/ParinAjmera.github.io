@@ -33,13 +33,21 @@ $(window).on("resize load", function() {
 		// Setting footer to center in mobile screens and not to the right
 		$('#footer').removeClass('pull-right-md');
 
-
 	}
 	else if($(window).width() >= 750 && $(window).width() < 970){	//section corresponding to sm (small devices)
+		
 		// Work Experience description section's left border adjusted for smaller screen
 		$('.resp-wx').removeClass('wx-description-md').addClass('wx-description-xs');		
+		
 		// Setting footer to center in mobile screens and not to the right
 		$('#footer').removeClass('pull-right-md').css("text-align","center");
+		
+		// Content hidden in read more button to reduce scrolling for mobile screens
+		$('.read-more').addClass('collapse');
+
+		// Add a reduce margin for better viewing on mobile
+		$('.resp-reduce-margin').addClass('reduce-margin-xs');
+
 	}
 	else if($(window).width() >= 970 && $(window).width() < 1150){	//section corresponding to md (medium devices)
 				
@@ -67,8 +75,6 @@ $(window).on("resize load", function() {
 		// Setting footer to center for desktop screens
 		$('#footer').addClass('pull-right-md');
 
-
-				
 		//Sidebar navigation bottom list item position (#menu-fixed-bottom)
 		var height = $(window).height();
 		//console.log("height = " + height);  //Debug
@@ -101,9 +107,6 @@ $(window).on("resize load", function() {
 
 		// Setting footer to center for desktop screens
 		$('#footer').addClass('pull-right-md');
-
-
-
 		
 		//Sidebar navigation bottom list item position (#menu-fixed-bottom)
 		var height = $(window).height();

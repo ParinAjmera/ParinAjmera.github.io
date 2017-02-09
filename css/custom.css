@@ -110,7 +110,6 @@ li a.profile-focus-rm:focus {
   line-height: 130%;
 }
 
-
 /* ----------------------------------Introduction Section----------------------------------------- */
 
 /* Introduction section */
@@ -145,6 +144,11 @@ li a.profile-focus-rm:focus {
 
 .padding-xs {
   padding-bottom: 55px;
+}
+
+/* Hiding Introduction part to use fade in effect */
+div.hidden {
+  display: none;
 }
 
 /* ----------------------------------Skills Section----------------------------------------*/
@@ -280,5 +284,20 @@ li:before {
 .pull-right-md {
   float: right;
 }
+
+a {
+  color: #337ab7;
+}
+
+a:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+a:active {
+  color: #337ab7;
+  text-decoration: none;
+}
+
 /* -----------------------------------------------Test CSS Classes----------------------------------- */
 

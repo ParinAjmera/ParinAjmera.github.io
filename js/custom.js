@@ -50,6 +50,9 @@ $(document).ready(function(){
 		$('.icon-size').removeClass('text-primary');
 	});
 
+	// Fade In Effect for Introduction Section
+	$('div.hidden').fadeIn(3000).removeClass('hidden');
+
 });
 
 
