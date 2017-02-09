@@ -103,6 +103,7 @@ li a.profile-focus-rm:focus {
 
 /* Mobile Device Menu Dropdown toggle customization */
 .dropdown-custom {
+  background-color: #f7f7f7;
   text-align: center;
   padding: 25px 25px;
   font-size: 17px;
@@ -203,6 +204,13 @@ div.hidden {
   font-size: 15px;
 }
 
+/* ----------------------------------Contact-------------------------------------------------*/
+.send-button {
+  width: 100%;
+  font-size: 17px;
+}
+
+
 /* ----------------------------------Card Layout Using Panel----------------------------------------*/
 
 /* Gives the card a background color and a box shadow */
@@ -290,6 +298,7 @@ a {
 }
 
 a:hover {
+  cursor: pointer;
   color: #337ab7;
   text-decoration: none;
 }
