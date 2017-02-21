@@ -55,7 +55,9 @@ $(document).ready(function(){
 
 });
 
-
-
+//More Less Button Toggle Animation
+$('#ToggleButton').click(function(){
+	$('#MoreLessButton').toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
+});
 
 
