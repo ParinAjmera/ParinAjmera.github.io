@@ -21,14 +21,14 @@ $(document).ready(function(){
 // Refer to the below repo if you wish to use it on your website. 				 //
 // https://github.com/davist11/jQuery-One-Page-Nav                               //
 //-------------------------------------------------------------------------------//	
-	$('#sidebar,#phone').onePageNav();
+	$('#sidebar, #phone').onePageNav();
 
 //Sidebar navigation bottom list item position (#menu-fixed-bottom)	
 	var height = $(window).height();
-	//console.log("height = " + height); //Debug
+	// console.log("height = " + height); //Debug
 	var topValue = height - 108;
 	var top = topValue + "px"
-	$("#menu-fixed-bottom").css('top', top);
+	$("#menu-fixed-bottom").css('height', top);
 
 // Footer social-media icons animation
 	$('#FbIcon').mouseover(function(){
@@ -53,11 +53,18 @@ $(document).ready(function(){
 	// Fade In Effect for Introduction Section
 	$('div.hidden').fadeIn(3000).removeClass('hidden');
 
+
 });
 
 //More Less Button Toggle Animation
-$('.more-less-button').click(function(){
-	$(this).toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
+$('.toggle-button').click(function(){
+	var span = $('span.more-less-button');
+	span.toggleClass("glyphicon-chevron-up glyphicon-chevron-down");
+});
+
+//Go To Top Button
+$('.glyphicon-circle-arrow-up').click(function() {
+	$('html, body').animate({scrollTop:0}, 500);
 });
 
 
