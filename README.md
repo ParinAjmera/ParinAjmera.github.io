@@ -22,4 +22,4 @@
 <img src = "https://cloud.githubusercontent.com/assets/14006263/23571814/21480c90-0020-11e7-9f8f-d7de0c6e9fa3.PNG" width="250" height="400">
 <img src = "https://cloud.githubusercontent.com/assets/14006263/23571816/21493b06-0020-11e7-8009-359d3d1ba2fe.PNG" width="250" height="400">
 
-<p><i>Feel free to use the the website for your portfolio. Download the files and edit content</i><p>
+<p><i>Feel free to use the the website for your portfolio.</i><p>
